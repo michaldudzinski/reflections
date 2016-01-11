@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to
+do it?
+
+It initializes the repository without making any commits.
+You have to make one. 
+
+How is the staging area different from the working directory and 
+the repository? What value do you think it offers?
+
+Files in the staging area are pending to be added from the 
+working directory to the repository via commit. It allowes 
+you to select particular files instead of commiting 
+every single one.
