@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+
+It showed me the difference between particular lines of code
+by printing out both of them next to eachother which was very
+clear.
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+It can save me time when searching for mistakes. I could
+compare working file with the broken one instead of searching
+through the entire document for a typo.
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+One big pro is that your commit is understandable. It's a clear
+landmark. The big con is that you have to do it yourself and
+so sometimes you forget to commit in time or the opposite:
+to feel safe you commit too much which litters your version 
+history
+
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+Because the change might affect all the files. That way if you 
+made a mistake you can track where it occured. i.e. when the 
+files have a common variable and you misspeled renaming it 
+you could see the change in every file and compare it uncovering
+the mistake very easily.
+
+How can you use the commands git log and git diff to view
+the history of files?
+
+You use the git log command to find the ID of the commit you
+desire. Then you use git diff 1 2. "1" is the ID before the 
+change and the "2" is the ID after the change. This results
+in a comparison between two file versions. The lines that
+had been changed are highlighted. It shows the line as it 
+was before and after the change.
+
+How might using version control make you more confident
+to make changes that could break something?
+
+You can always revert the changes easily using the git checkout
+command. You can always either revert or correct the bugs.
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+
+Probably work! We will be working as a team so I needed to 
+learn how it works.
+
+A
+B
+$
+C
+#
+%
+E
+F
