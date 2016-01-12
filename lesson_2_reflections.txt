@@ -18,3 +18,16 @@ commit per logical change?
 You add the components you want to be changed to the 
 staging area and then when commiting it only applies the
 files you added.
+
+How do the diagrams help you visualize the branch structure?
+
+It literally shows how it looks. Of course if there were 
+countless branches it would impossible to draw a diagram
+but the plain example is enough to understand the concept.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The result is a merged content of the files merged.
+It is represented by a diagram so it is easy to understand
+and comprehend.
