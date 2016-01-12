@@ -11,3 +11,10 @@ Files in the staging area are pending to be added from the
 working directory to the repository via commit. It allowes 
 you to select particular files instead of commiting 
 every single one.
+
+How can you use the staging area to make sure you have one 
+commit per logical change?
+
+You add the components you want to be changed to the 
+staging area and then when commiting it only applies the
+files you added.
